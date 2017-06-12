@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/txtJam"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="@drawable/d_table"
+        android:text="Jam"/>
+
+    <TextView
+        android:id="@+id/txtMakul"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="@drawable/d_table"
+        android:text="Makul"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="@drawable/d_table"
+        android:text="Dosen"
+        android:id="@+id/txtDosen"/>
+
+    <TextView
+        android:id="@+id/txtRuang"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/d_table"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Ruang"/>
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@drawable/d_table"
+        android:gravity="center"
+        android:padding="5dp">
+        
+        <ImageView
+            android:id="@+id/vDelete"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:alpha="0.5"
+            android:src="@drawable/delete"/>
+        
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtHari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:text="Hari"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/d_table"
+            android:text="Jam"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/d_table"
+            android:text="Makul"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/d_table"
+            android:text="Dosen"
+            android:id="@+id/textView"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/d_table"
+            android:text="Ruang"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/d_table"
+            android:text="Action"/>
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llJadwalContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/vAdd"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/add"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:alpha="0.5"
+        android:background="@drawable/d_btn"
+        android:clickable="true"
+        android:text="Add"/>
+
+</LinearLayout>
